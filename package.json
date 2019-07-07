@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "losolio-github-io",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A new coders notebook",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ole Kristian Losvik <losvik@gmail.com>",
   "dependencies": {
     "gatsby": "^2.13.6",
     "gatsby-image": "^2.2.4",
@@ -33,7 +33,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
