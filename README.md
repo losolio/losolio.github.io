@@ -116,4 +116,5 @@ Add a script to deploy pages in package.json:
 
 To deploy, just run `npm run deploy`.
 
-With inspiration from [jarednielsen.com](http://jarednielsen.com/deploy-gatsbyjs-github-pages-user/)
+With inspiration from 
+ * [How Gatsby Works with GitHub Pages](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/)
