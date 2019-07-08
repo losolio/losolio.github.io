@@ -116,5 +116,11 @@ Add a script to deploy pages in package.json:
 
 To deploy, just run `npm run deploy`.
 
+### Add automatic deployment with Travis CI
+
+1. Add `.travis.yml`
+1. Add a new Github access token here: Setting > Developer settings > Personal access tokens
+1. Save your personal access token as an environment variable named `GITHUB_TOKEN`.
+
 With inspiration from 
  * [How Gatsby Works with GitHub Pages](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/)
