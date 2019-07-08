@@ -22,6 +22,7 @@
       "readme.md"
     ]
   },
+  "props": [],
   "entries": [
     {
       "key": "src/docs/about.md",
@@ -123,6 +124,5 @@
         ]
       }
     }
-  ],
-  "props": []
+  ]
 }
