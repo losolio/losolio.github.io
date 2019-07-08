@@ -1,0 +1,34 @@
+---
+name: Button
+menu: Components
+---
+
+// highlight-start
+import { Playground, Props } from "docz"
+import { Button } from "./button"
+// highlight-end
+
+# Button
+
+Buttons make common actions more obvious and help users more easily perform them. Buttons use labels and sometimes icons to communicate the action that will occur when the user touches them.
+
+// highlight-start
+
+## Properties
+
+<Props of={Button} />
+
+## Basic usage
+
+<Playground>
+  <Button>Click me</Button>
+</Playground>
+
+## With different sizes
+
+<Playground>
+  <Button scale="small">Click me</Button>
+  <Button scale="normal">Click me</Button>
+  <Button scale="big">Click me</Button>
+</Playground>
+// highlight-end

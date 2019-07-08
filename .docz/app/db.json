@@ -1,0 +1,116 @@
+{
+  "config": {
+    "title": "Losolio Github Io",
+    "description": "A new coders notebook",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "props": [],
+  "entries": [
+    {
+      "key": "src/docs/about.md",
+      "value": {
+        "path": "/about",
+        "title": "About us",
+        "id": "26459ffdc55f0f4fec5a8bbfd032f529",
+        "filepath": "src/docs/about.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/docs/about.md",
+        "slug": "src-docs-about",
+        "route": "/src-docs-about",
+        "name": "About",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "whats-that",
+            "depth": 2,
+            "value": "What's that?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/button.mdx",
+      "value": {
+        "name": "Button",
+        "menu": "Components",
+        "id": "74aac793d743413468fd630acc1932f5",
+        "filepath": "src/docs/button.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/docs/button.mdx",
+        "slug": "src-docs-button",
+        "route": "/src-docs-button",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "with-different-sizes",
+            "depth": 2,
+            "value": "With different sizes"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/index.md",
+      "value": {
+        "name": "Getting Started",
+        "route": "/",
+        "id": "69e828a0f5de127ac8242566cf2b02e8",
+        "filepath": "src/docs/index.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/docs/index.md",
+        "slug": "src-docs-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "getting-started",
+            "depth": 1,
+            "value": "Getting Started"
+          },
+          {
+            "slug": "hello-world",
+            "depth": 2,
+            "value": "Hello world"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/getting-started.md",
+      "value": {
+        "path": "/getting-started",
+        "title": "Getting Started",
+        "id": "933c4011628cd9bdfa99051de2a8fdd6",
+        "filepath": "src/docs/getting-started.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/docs/getting-started.md",
+        "slug": "src-docs-getting-started",
+        "route": "/src-docs-getting-started",
+        "name": "Getting started",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "whats-this",
+            "depth": 2,
+            "value": "What's this?"
+          }
+        ]
+      }
+    }
+  ]
+}
