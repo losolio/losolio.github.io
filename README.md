@@ -31,5 +31,6 @@ To deploy, just run `npm run deploy`.
 1. Save your personal access token as an environment variable named `GITHUB_TOKEN`.
 
 With inspiration from 
+ * [How we switched to documentation-as-code with Gatsby.js and Netlify — Markdown & hosting](https://medium.com/squadlytics/how-we-switched-to-documentation-as-code-with-gatsby-js-and-netlify-part-1-2-1f57ad732a05)
  * [Gatsby docs: How Gatsby Works with GitHub Pages](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/)
  * [Travis CI docs: GitHub Pages Deployment](https://docs.travis-ci.com/user/deployment/pages/)
