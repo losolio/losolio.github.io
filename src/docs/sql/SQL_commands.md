@@ -1,3 +1,7 @@
+---
+path: "/sql-format"
+title: "Delete everything"
+---
 
 By Harpal, published here https://stackoverflow.com/questions/8439650/how-to-drop-all-tables-in-a-sql-server-database
 

@@ -1,3 +1,7 @@
+---
+path: "/tools"
+title: "My toolbox"
+---
 
 An Integrated development environment (IDE) speeds up your development process, and makes life a lot easier. Several tools exist. 
 

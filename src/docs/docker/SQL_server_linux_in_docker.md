@@ -1,3 +1,8 @@
+---
+path: "/mssql-server-linux"
+title: "Getting Started with SQL server Linux on Docker"
+---
+
 # Installing SQL Server Linux in docker
 
 SQL Server runs on running on Linux based on Ubuntu 16.04. It can be used with the Docker Engine 1.8+ on Linux or on Docker for Mac/Windows.
