@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
 import Header from '../components/header';
-import Sidebar from '../components/sidebar/';
+import DocNavigation from '../components/doc-navigation';
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/main.scss";
 
@@ -18,7 +18,7 @@ class Template extends Component {
           <Container>
             <Row>
             <Col md="2">
-              <Sidebar />
+              <DocNavigation />
             </Col>
             <Col>
             <h1>{page.frontmatter.title}</h1>

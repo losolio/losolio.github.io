@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
-import Sidebar from "./sidebar";
+import DocNavigation from "./doc-navigation";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/main.scss";
 
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       <Container>
         <Row>
           <Col md="2">
-            <Sidebar />
+            <DocNavigation />
           </Col>
           <Col>
             <main>{children}</main>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Sidebar = () => (
+const DocNavigation = () => (
   
   <div>
     <header>Navigation</header>
@@ -14,4 +14,4 @@ const Sidebar = () => (
     </ul>
     </div>
 )
-export default Sidebar
+export default DocNavigation
