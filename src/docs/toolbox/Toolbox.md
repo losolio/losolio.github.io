@@ -1,5 +1,5 @@
 ---
-path: "/tools"
+path: "/toolbox"
 title: "My toolbox"
 ---
 
