@@ -10,7 +10,7 @@ const Sidebar = () => (
     </ul>
     <header>About</header>
     <ul>
-      <li><Link to="/tools">Toolbox</Link></li>
+      <li><Link to="/toolbox">Toolbox</Link></li>
     </ul>
     </div>
 )
