@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 import Header from '../components/header';
 import DocNavigation from '../components/doc-navigation';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "reactstrap";
 import "../styles/main.scss";
 
 
@@ -17,7 +17,7 @@ class Template extends Component {
           <Header siteTitle="Nice docs.." />
           <Container>
             <Row>
-            <Col md="2">
+            <Col md="2" tag="aside">
               <DocNavigation />
             </Col>
             <Col>

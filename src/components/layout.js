@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
 import DocNavigation from "./doc-navigation";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "reactstrap";
 import "../styles/main.scss";
 
 const Layout = ({ children }) => {
