@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
 import Header from '../components/header';
-import Navbar from '../components/navbar'
 import DocNavigation from '../components/doc-navigation';
 import { Container, Row, Col } from "reactstrap";
 import "../styles/main.scss";
@@ -15,7 +14,7 @@ class Template extends Component {
     const { markdownRemark: page } = data;
     return (
         <div className="page">
-          <Navbar />
+          <Header siteTitle="Learning to code" />
           <Container fluid>
             <Row>
             <Col md="2" tag="aside" className="sidebar-navigation">
