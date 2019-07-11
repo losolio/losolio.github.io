@@ -19,20 +19,20 @@ export default class DocNavigation extends React.Component {
   render() {
     return (
       <div class="pt-5 pl-3">
-        <header>Navigation</header>
+        <header>Docker</header>
         <Nav vertical>
           <NavItem>
             <NavLink href="/docker">Docker</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/docker/mssql">Link</NavLink>
+            <NavLink href="/docker/mssql">MS SQL</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/toolbox">Toolbox</NavLink>
           </NavItem>
         </Nav>
 
-        <header class="pt-5">Navigation</header>
+        <header class="pt-5">Web</header>
         <Nav vertical>
           <NavItem>
             <NavLink href="/web/accessibility">Accessibility</NavLink>
