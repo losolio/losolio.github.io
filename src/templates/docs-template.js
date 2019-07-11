@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
 import Header from '../components/header';
+import Navbar from '../components/navbar'
 import DocNavigation from '../components/doc-navigation';
 import { Container, Row, Col } from "reactstrap";
 import "../styles/main.scss";
@@ -14,15 +15,13 @@ class Template extends Component {
     const { markdownRemark: page } = data;
     return (
         <div className="page">
-          <Header siteTitle="Nice docs.." />
-          <Container>
+          <Navbar />
+          <Container fluid>
             <Row>
-            <Col md="2" tag="aside">
+            <Col md="2" tag="aside" className="sidebar-navigation">
               <DocNavigation />
             </Col>
-            <Col>
-            <h1>{page.frontmatter.title}</h1>
-            <span>asdf</span>
+            <Col className="pt-5">
             <div dangerouslySetInnerHTML={{ __html: page.html }} />     
             </Col>
             </Row>

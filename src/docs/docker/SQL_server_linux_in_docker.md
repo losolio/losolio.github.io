@@ -1,5 +1,5 @@
 ---
-path: "/mssql-server-linux"
+path: "/docker/mssql"
 title: "Getting Started with SQL server Linux on Docker"
 ---
 

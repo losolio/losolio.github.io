@@ -10,6 +10,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
+import Navbar from "./navbar";
 import DocNavigation from "./doc-navigation";
 import { Container, Row, Col } from "reactstrap";
 import "../styles/main.scss";
@@ -27,22 +28,17 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Container>
+      <Navbar />
+      <Container fluid>
         <Row>
-          <Col md="2">
+          <Col md="2" tag="nav" className="sidebar-navigation">
             <DocNavigation />
           </Col>
-          <Col>
+          <Col className="pt-5">
             <main>{children}</main>
           </Col>
         </Row>
       </Container>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
     </>
   );
 };

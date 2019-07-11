@@ -3,7 +3,7 @@ path: "/docker"
 title: "Getting Started with Docker"
 ---
 
-# Docker
+# Getting started with Docker
 
 
 Stop all containers
