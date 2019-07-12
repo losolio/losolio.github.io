@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
@@ -24,15 +24,22 @@ const Layout = ({ children }) => {
       }
     }
   `);
+  const [isSidebarExpanded, setSideBarExpanded] = useState(true);
+  const toggleSidebar = () => setSideBarExpanded(!isSidebarExpanded);
 
   return (
     <>
-      <Header siteTitle="Learning to code"  />
+      <Header siteTitle="Learning to code" />
       <Container fluid>
+        <p>{isSidebarExpanded.toString()}</p>
         <Row>
-          <Col md="2" tag="nav" className="sidebar-navigation">
-            <DocNavigation />
-          </Col>
+          { isSidebarExpanded &&
+            <Col md="2" tag="nav" className="sidebar-navigation">
+              <DocNavigation 
+                toggleSidebar={toggleSidebar}
+                isExpanded={isSidebarExpanded} />
+            </Col>
+          }
           <Col className="pt-5">
             <main>{children}</main>
           </Col>
