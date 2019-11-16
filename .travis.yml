@@ -5,6 +5,7 @@ cache:
   directories:
   - node_modules
 before_script:
+  - "cd docs"
   - "npm install"
 script:
   - "npm run test"
@@ -14,8 +15,8 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  local_dir: public
-  target_branch: master
+  local_dir: docs/public
+  target_branch: source
   keep-history: true
   on:
-    branch: source
+    branch: master
