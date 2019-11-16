@@ -5,7 +5,7 @@ title: "Delete everything"
 
 By Harpal, published here https://stackoverflow.com/questions/8439650/how-to-drop-all-tables-in-a-sql-server-database
 
-
+```
 /* Drop all Primary Key constraints */
 DECLARE @name VARCHAR(128)
 DECLARE @constraint VARCHAR(254)
@@ -41,3 +41,4 @@ BEGIN
     SELECT @name = (SELECT TOP 1 [name] FROM sysobjects WHERE [type] = 'U' AND category = 0 AND [name] > @name ORDER BY [name])
 END
 GO
+```
